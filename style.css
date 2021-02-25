@@ -12,3 +12,38 @@ header {
   background-color: rgb(229, 121, 230);
   height: 130px;
 }
+
+div.preview {
+  background-color: rgb(225, 214, 122);
+  height: 400px;
+  margin: 30px 0;
+}
+
+.wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+}
+
+.wrapper > * {
+  float: left;
+  background-color: rgb(171, 207, 231);
+  border-bottom: 15px solid rgb(1, 134, 255);
+}
+
+aside.left, aside.right {
+  width: 25%;
+  height: 600px;
+}
+
+article {
+  width: 50%;
+  border-left: 1% solid rgb(1, 134, 255);
+  border-right: 1% solid rgb(1, 134, 255);
+  height: 600px;
+}
