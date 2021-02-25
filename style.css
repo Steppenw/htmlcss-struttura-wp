@@ -51,3 +51,9 @@ article {
   margin-right: 1%;
   height: 600px;
 }
+
+footer {
+  height: 60px;
+  background-color: rgb(136, 1, 254);
+  margin-top: 10px;
+}
