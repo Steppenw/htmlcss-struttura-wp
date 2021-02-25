@@ -19,21 +19,25 @@ div.preview {
   margin: 30px 0;
 }
 
-.wrapper::after {
+div.wrapper {
+  background-color:  rgb(1, 134, 255);
+}
+
+div.wrapper::after {
   content: "";
   display: table;
   clear: both;
 }
 
-nav {
-  height: 80px;
-  width: 100%;
-}
-
 .wrapper > * {
   float: left;
   background-color: rgb(171, 207, 231);
-  border-bottom: 15px solid rgb(1, 134, 255);
+  margin-bottom: 20px;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
 }
 
 aside.left, aside.right {
@@ -42,8 +46,8 @@ aside.left, aside.right {
 }
 
 article {
-  width: 50%;
-  border-left: 1% solid rgb(1, 134, 255);
-  border-right: 1% solid rgb(1, 134, 255);
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
   height: 600px;
 }
